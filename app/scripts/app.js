@@ -8,11 +8,12 @@
  *
  * Main module of the application.
  */
- angular
+ var yapp = angular
  .module('yapp', [
     'ui.router',
     'snap',
-    'ngAnimate'
+    'ngAnimate',
+	'ngResource'
     ])
  .config(function($stateProvider, $urlRouterProvider) {
 
